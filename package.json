@@ -1,0 +1,36 @@
+{
+  "name": "anz-coding-exercise",
+  "description": "ANZ Coding Exercise - a simple tokenization service in NodeJS with Express and LokiJS",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+    "node": ">= 18.12.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Mathachan Kulathinal",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "lokijs": "^1.5.12",
+    "npm": "^9.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "supertest": "^6.3.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsjk/tokenization.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattsjk/tokenization/issues"
+  },
+  "homepage": "https://github.com/mattsjk/tokenization#readme"
+}

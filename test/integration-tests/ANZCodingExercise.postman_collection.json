@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "b218b684-7f59-4cb6-8f9d-5daaef3a107e",
+		"name": "ANZ Coding Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tokenize",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    '4111-1111-1111-1111',\r\n    '4444-3333-2222-1111',\r\n    '4444-1111-2222-3333'\r\n]",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/tokenize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tokenize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Detokenize",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    \"147ff036-c511-47b7-9471-6f49d8447943\",\r\n    \"f96e796f-c8c5-4089-a0ac-0b4f8884b2a1\",\r\n    \"d7b342dc-c3e3-4864-bd67-dca2cd752f22\"\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/detokenize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"detokenize"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
