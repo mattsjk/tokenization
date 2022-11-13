@@ -30,6 +30,16 @@ Throughput, latency, deployment architecture, resiliency, batch capability and m
 **Test framework:**
 - Mocha with SuperTest
 
+**Clone/fork the repository**
+```
+https://github.com/mattsjk/tokenization.git
+```
+
+**Initialise the application**
+```
+npm install
+```
+
 ### Running the application ###
 ```
 npm start
